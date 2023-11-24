@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.section1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(gym.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+
+}
+
+header .navbar li{
+    list-style: none;
+}
+
+header .navbar li a{
+    display: inline-block;
+    color: yellow;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+header .navigation li a:hover{
+    color: red;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    background: red;
+    color: yellow;
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+.content{
+    max-width: 600px;
+}
+
+.content .boxe h2{
+    font-size: 4em;
+    color: #fff;
+    line-height: 1em;
+}
+
+.content .boxe p{
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 350;
+    margin: 20px 0;
+}
+
+.content .boxe a{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    color: black;
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+.log{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+.log li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log li a{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(1);
+    transform: scale(0.5);
+}
+
+img{
+    width:50px;
+    height: 50px;
+}
+
+hr{
+    background-color: white;
+    width:5px;
+}
+.section2 h1{
+    font-size: 3rem;
+}
+.section2 {
+    color: white;
+    background-color:black ;
+    padding: 73px;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(gym2.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 90px;
+}
+.section2 p{
+    text-align: center;
+    padding: 0 8vw;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid yellow;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 12px 0;
+}
+
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+} 
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex; 
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2{
+    padding-left:13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(29, 88, 124);
+}
+
+.overflow-x-hidden{
+    overflow: hidden;
+}
+
+.text-center{
+    text-align: center;
+} 
+
+@media screen and (max-width: 991px) {
+    header{
+        padding: 15px 40px;
+    }
+
+    .section1{
+        padding:  40px;
+        background: url(gym1.jpg);
+        background-size: cover;
+        background-position:center ;
+    }
+
+    .content .boxe h2{
+        font-size: 2.5rem;
+    }
+
+    .content .boxe p{
+        font-size: 1em;
+    }
+
+    .section2{
+        padding:  40px;
+        background: url(gym3.jpg);
+        background-size: cover;
+        background-position:center ;
+    }
+
+}
+
+
